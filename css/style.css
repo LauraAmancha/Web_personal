@@ -1,7 +1,7 @@
 /* ===== Estilos Generales ===== */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 40px;
     background-color: #f9f9f9;
 }
 
@@ -9,7 +9,7 @@ body {
 header {
     background-color: #5dade2; /* azul celeste */
     color: white;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     justify-content: space-between; /* separa texto y foto */
     align-items: flex-start;        /* alinea al top */
@@ -57,11 +57,12 @@ ul {
 }
 
 /* ===== Sección Contacto ===== */
+/* ===== Sección Contacto ===== */
 #contacto {
     text-align: center;
     margin: 40px auto;
     padding: 20px;
-    background-color: #e0f7fa; /* verde agua / cian muy suave */
+    background-color: #e8f5e9; /* verde muy suave */
     border-radius: 10px;
     border-left: 5px solid #5dade2; /* línea azul */
     max-width: 600px;
