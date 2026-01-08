@@ -1,34 +1,19 @@
-\# Web Personal
+# Web Personal
 
+Proyecto de una web personal creada con HTML y CSS.
 
+## Objetivo
+Aplicar conocimientos básicos de HTML, CSS y control de versiones.
 
-Proyecto de una web personal creada con \*\*HTML\*\* y \*\*CSS\*\*.
+## Autor
+Laura Amancha
+# Web Personal
 
+Proyecto de una web personal creada con HTML y CSS.
 
+## Objetivo
+Aplicar conocimientos básicos de HTML, CSS y control de versiones.
 
-\## Objetivo
-
-Aplicar conocimientos básicos de HTML, CSS y control de versiones utilizando \*\*GitHub\*\*.
-
-
-
-\## Tecnologías
-
-\- HTML
-
-\- CSS
-
-\- GitHub / GitHub Pages
-
-
-
-\## Autor
-
-\*\*Laura Amancha\*\*
-
-
-
-\## Visualización
-
-Esta web se puede visualizar en línea mediante \*\*GitHub Pages\*\* una vez publicada.
+## Autor
+Laura Amancha
 
