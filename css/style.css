@@ -1,25 +1,51 @@
+/* ===== Estilos Generales ===== */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f9f9f9;
 }
 
-/* Header más compacto y azul celeste */
+/* ===== Header con foto a la derecha ===== */
 header {
     background-color: #5dade2; /* azul celeste */
     color: white;
-    padding: 20px 20px; /* menos alto */
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* separa texto y foto */
+    align-items: flex-start;        /* alinea al top */
+    flex-wrap: wrap;                /* responsive */
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 header h1 {
-    margin: 5px 0; /* margen reducido */
+    margin: 5px 0;
     font-size: 1.8rem;
 }
 
 header p {
     margin: 2px 0;
     font-size: 1rem;
+}
+
+/* ===== Foto de perfil ===== */
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ===== Secciones ===== */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9; /* mismo color de fondo del body */
+    border-radius: 10px;
 }
 
 h2 {
@@ -30,26 +56,57 @@ ul {
     list-style-type: square;
 }
 
+/* ===== Sección Contacto ===== */
+#contacto {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e0f7fa; /* verde agua / cian muy suave */
+    border-radius: 10px;
+    border-left: 5px solid #5dade2; /* línea azul */
+    max-width: 600px;
+}
+
+#contacto h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#contacto p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* ===== Botón de correo ===== */
+a.boton-correo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a.boton-correo:hover {
+    background-color: #0056b3;
+}
+
+/* ===== Footer ===== */
 footer {
     margin-top: 20px;
     text-align: center;
     color: gray;
 }
 
-/* Sección Contacto con borde azul para combinar */
-#contacto {
-    margin-top: 30px;
-    padding: 10px;
-    background-color: #e8f5e9;
-    border-left: 5px solid #5dade2; /* mismo azul del header */
-}
-/* Efecto hover en títulos de secciones */
+/* ===== Hover en títulos ===== */
 h2:hover {
-    color: #5dade2;  /* cambia a azul celeste cuando pasas el mouse */
+    color: #5dade2;
     transition: color 0.3s ease;
 }
 
-/* Efecto hover en enlaces (si agregas links en contacto o secciones) */
+/* ===== Hover en enlaces ===== */
 a {
     color: #5dade2;
     text-decoration: none;
@@ -57,16 +114,6 @@ a {
 }
 
 a:hover {
-    color: #2e86c1; /* azul más oscuro al pasar el mouse */
+    color: #2e86c1;
     text-decoration: underline;
-}
-
-.foto-perfil {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    float: left;        /* la mueve a la izquierda */
-    margin-right: 20px; /* espacio entre foto y texto */
-    margin-top: 10px;   /* opcional: espacio desde arriba */
 }
