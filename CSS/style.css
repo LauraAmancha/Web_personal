@@ -4,14 +4,25 @@ body {
     background-color: #f9f9f9;
 }
 
+/* Header más compacto y azul celeste */
 header {
-    background-color: #4CAF50;
+    background-color: #5dade2; /* azul celeste */
     color: white;
-    padding: 20px;
+    padding: 20px 20px; /* menos alto */
     text-align: center;
 }
 
-h1, h2 {
+header h1 {
+    margin: 5px 0; /* margen reducido */
+    font-size: 1.8rem;
+}
+
+header p {
+    margin: 2px 0;
+    font-size: 1rem;
+}
+
+h2 {
     margin-bottom: 10px;
 }
 
@@ -23,4 +34,39 @@ footer {
     margin-top: 20px;
     text-align: center;
     color: gray;
+}
+
+/* Sección Contacto con borde azul para combinar */
+#contacto {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-left: 5px solid #5dade2; /* mismo azul del header */
+}
+/* Efecto hover en títulos de secciones */
+h2:hover {
+    color: #5dade2;  /* cambia a azul celeste cuando pasas el mouse */
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en enlaces (si agregas links en contacto o secciones) */
+a {
+    color: #5dade2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2e86c1; /* azul más oscuro al pasar el mouse */
+    text-decoration: underline;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+position: absolute;
+    top: 10px;
+    right: 10px; /* esquina superior derecha */
 }
