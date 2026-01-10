@@ -1,18 +1,18 @@
 # Web Personal
 
-Proyecto de una web personal creada con HTML y CSS.
+Proyecto de una página web personal desarrollada como parte de la asignatura Introducción a HTML.
 
 ## Objetivo
-Aplicar conocimientos básicos de HTML, CSS y control de versiones.
+Aplicar conocimientos básicos de HTML y CSS para la estructura y diseño del sitio, y PHP para la creación de una calculadora con operaciones básicas, utilizando control de versiones con GitHub.
 
-## Autor
-Laura Amancha
-# Web Personal
+## Tecnologías utilizadas
+- HTML
+- CSS
+- PHP
+- GitHub
 
-Proyecto de una web personal creada con HTML y CSS.
-
-## Objetivo
-Aplicar conocimientos básicos de HTML, CSS y control de versiones.
+## Descripción
+La página web muestra información personal del estudiante, sus habilidades y una calculadora funcional desarrollada en PHP que permite realizar operaciones aritméticas básicas.
 
 ## Autor
 Laura Amancha
